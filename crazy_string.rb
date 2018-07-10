@@ -5,6 +5,6 @@ b=b.gsub("S", "Z").swapcase
 return "#{a} #{b}"
 end
 
-crazy_strings("Koding,Rules")
+crazy_strings("Koding","Rules")
 
 
