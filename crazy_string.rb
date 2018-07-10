@@ -4,3 +4,6 @@ $a= koding.reverse.upcase
 $b= rules.gsub("S", "Z").swapcase
 return "#{a} #{b}"
 end
+
+crazy_strings("koding,rules")
+puts "#{$a} #{$b}"
