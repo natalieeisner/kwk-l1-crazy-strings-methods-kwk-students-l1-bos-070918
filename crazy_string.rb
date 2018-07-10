@@ -1,9 +1,10 @@
 
-def crazy_strings("a,b")
-$a= koding.reverse.upcase
-$b= rules.gsub("S", "Z").swapcase
+def crazy_strings(a,b)
+$a=koding.reverse.upcase
+$b=rules.gsub("s", "z").swapcase
 return "#{a} #{b}"
 end
 
-crazy_strings("koding,rules")
+crazy_strings("Koding,Rules")
 puts "#{$a} #{$b}"
+
